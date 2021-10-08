@@ -78,3 +78,8 @@ about.addEventListener("click", function (e) {
     element.classList.add("active");
   }
 });
+
+// DATE
+
+const date = document.querySelector(".date");
+date.innerHTML = new Date().getFullYear();

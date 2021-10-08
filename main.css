@@ -453,3 +453,34 @@ nav {
     grid-gap: 2rem;
   }
 }
+
+/* ****************CONTACT SECTION****************** */
+
+.contact-item {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.contact-item h4 {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+.contact-item p {
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.contact-icon {
+  margin: 1rem;
+}
+
+/* **********FOOTER SECTION*********** */
+
+.footer {
+  background-color: hsl(204, 92%, 10%);
+  color: #fff;
+  padding: 1rem;
+}
